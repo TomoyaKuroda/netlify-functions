@@ -1,3 +1,8 @@
+import mongoose from 'mongoose'
+
+// Load the server
+import db from './server'
+
 // Load the Product Model
 import Product from "./productModel";
 exports.handler = async (event, context) => {

@@ -1,5 +1,8 @@
 // productModel.js
-import mongoose from "mongoose";
+import mongoose from 'mongoose'
+
+// Load the server
+import db from './server'
 // Set Product Schema
 const schema = new mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
